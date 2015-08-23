@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Angry Fish Document</title>
+</head>
+<link rel="stylesheet" href="CSS/reset.css" type="text/css" />
+<link rel="stylesheet" href="CSS/style.css" type="text/css" />
+<script src="Script/jquery-1.8.3.min.js"></script>
+
+<body>
+<div class="wrapper">
+  <div class="container-Home">
+    <header class="waves-header">
+      <aside class="left-aside">
+        <p class="hello-user">Hello Vignesh</p>
+        <input type="text" value="Search by Keyword" class="Search" />
+        <input type="button" value="Categories" class="category" id="categorybutton" />
+        <img src="Assets/search-icon.png" alt="search" class="search-icon" /> </aside>
+      <aside class="right-aside"><!-- <img src="Assets/My-fishes-icon.png" alt="dolphins" class="dolphins" /> <img src="Assets/leaderboard-icon.png" alt="dolphins" class="icons" /> <img src="Assets/Help-icon.png" alt="dolphins" class="life-jacket" />-->
+        <input type="button" value="" class="myhome" id="my-home-page" />
+        <input type="button" value="" class="icons myhome-icon" />
+        <input type="button" value="" class="life-jacket life-align" />
+        <div class="My-fishes-button home-align" id="myhome">
+          <p class="fishes-text">Home</p>
+        </div>
+        <div class="My-fishes-button leaderboard">
+          <p class="fishes-text">Leaderboard</p>
+        </div>
+        <div class="My-fishes-button Help-button">
+          <p class="fishes-text">Help</p>
+        </div>
+      </aside>
+    </header>
+    <section class="main-content" id="container">
+      <div class="oyster hiddenoyster"> </div>
+      <div class="small-fish" id="fish1"> </div>
+      <div class="medium-fish" id="fish2"> </div>
+      <div class="large-fish" id="fish3">
+        <input type="button" value="Click me to view the problem" class="fish-hover-box" />
+      </div>
+
+      <img src="Assets/Arrow.png" class="right-arrow" alt="arrow" id="rightarrow" />
+      <div class="glowingfish" id="fish4"> </div>
+      <div class="egg-count-hover">
+        <p class="Click-me-Text">Click me to post a new problem</p>
+        <p class="remaining-count">Remaining Eggs: 12</p>
+      </div>
+      <div class="View-more align-right">
+        <p class="View-more-text">View More</p>
+      </div>
+            <p class="academyTEXT align-fishes">&nbsp;&nbsp;&nbsp;&nbsp;My Fish</p>
+    </section>
+    <footer> <img src="Assets/refresh-icon.png" alt="refreshimage" class="refresh-icon" /> </footer>
+  </div>
+  <section class="pop-up-selectCategory">
+    <div class="select-category-container"> <img src="Assets/close-button.png" alt="close" class="close-button" id="close-select-button" />
+      <div class="details-contaniner"> <span class="select-category"> Select Category </span> <span class="arrow-default" id="down-arrow"> </span>
+        <textarea class="problem-description hiddendetails">Enter Problem Description
+                </textarea>
+        <input type="text" value="Keywords" class="keywordstextbox hiddendetails" />
+        <img src="Assets/info-button-inside-keyword-box.png" alt="info" class="infosymbol hiddendetails" />
+        <p class="require-fields">Please fill all the fields.</p>
+        <input type="button" value="Share with Circles" class="circle-button hiddendetails circles" />
+        <input type="button" value="Post" class="post-button hiddendetails" />
+        <div class="hover-textInfo hiddendetails">
+          <p>Format : keyword1,keyword2,keyword3</p>
+        </div>
+        <div class="infohide-symbol hiddendetails"> </div>
+        <ul id="categories-select">
+          <li class="category-name-row"> <span>Category Name1</span> </li>
+          <li class="category-name-row"> <span>Category Name2</span> </li>
+          <li class="category-name-row"> <span>Category Name3</span> </li>
+          <li class="category-name-row"> <span>Category Name4</span> </li>
+          <li class="category-name-row"> <span>Category Name5</span> </li>
+          <li class="category-name-row"> <span>Category Name6</span> </li>
+          <li class="category-name-row"> <span>Category Name7</span> </li>
+          <li class="category-name-row"> <span>Category Name8</span> </li>
+          <li class="category-name-row"> <span>Category Name9</span> </li>
+          <li class="category-name-row"> <span>Category Name10</span> </li>
+          <li class="category-name-row"> <span>Category Name11</span> </li>
+          <li class="category-name-row"> <span>Category Name12</span> </li>
+        </ul>
+      </div>
+      <div class="new-fish"> </div>
+    </div>
+    <div class="select-circles"> <img src="Assets/close-button.png" alt="close" class="close-button-circle" />
+      <p class="select-circle-text">Share with Circles</p>
+      <div class="circles-icon">
+        <p class="Text-circle">My Bay Mates</p>
+      </div>
+      <div class="circles-icon">
+        <p class="Text-circle grade-text">My Grade</p>
+      </div>
+      <div class="circles-icon aligntopcity">
+        <p class="Text-circle grade-text alignleftcity">My City</p>
+      </div>
+      <div class="circles-icon aligntopcity">
+        <p class="Text-circle grade-text">My Team</p>
+      </div>
+      <div class="circles-icon aligntopcity">
+        <p class="Text-circle depttext">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Department</p>
+      </div>
+      <div class="circles-icon aligntopcity">
+        <p class="Text-circle alignfacility">&nbsp;&nbsp;&nbsp;&nbsp;My Facility</p>
+      </div>
+      <p class="please-select">Please select two circles or less.</p>
+      <input type="button" value="Cancel" class="ok-button" id="cancel" />
+      <input type="button" value="Ok" class="ok-button ok-style" id="ok-button-categories" />
+    </div>
+  </section>
+  <section class="pop-up-categorybutton" id="categorybutton-overlay">
+    <div class="categorybutton-select">
+      <ul>
+        <li class="category-row"> <span>Category Name1</span> </li>
+        <li class="category-row"> <span>Category Name2</span> </li>
+        <li class="category-row"> <span>Category Name3</span> </li>
+        <li class="category-row"> <span>Category Name4</span> </li>
+        <li class="category-row"> <span>Category Name5</span> </li>
+        <li class="category-row"> <span>Category Name6</span> </li>
+        <li class="category-row"> <span>Category Name7</span> </li>
+        <li class="category-row"> <span>Category Name8</span> </li>
+        <li class="category-row"> <span>Category Name9</span> </li>
+        <li class="category-row"> <span>Category Name10</span> </li>
+        <li class="category-row"> <span>Category Name11</span> </li>
+        <li class="category-row"> <span>Category Name12</span> </li>
+      </ul>
+    </div>
+  </section>
+  <div class="selected-circle-grid-1">
+    <ul>
+      <li class="selected-circle-row"> <span>My Grade</span> </li>
+      <li class="selected-circle-row"> <span class="city-name">My City</span> </li>
+    </ul>
+  </div>
+  <!--pop up for fishes small fishes-->
+  <section class="pop-up-fish" id="fish-pop">
+    <section class="fish-popup"> <img src="Assets/close-button.png" alt="close" class="close-button-fish" id="close-pop1" />
+      <ul>
+        <li class="fish-category">
+          <label class="Name">Category Name :</label>
+          <span class="Fish-detail">Academy</span> </li>
+        <li class="fish-category fish-sec-row">
+          <label class="Name">Date of Birth  -</label>
+          <span class="Fish-detail">12/12/2014</span> </li>
+      </ul>
+      <textarea>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </textarea>
+      <p class="comment-text" id="Comment-Box-pop">Comment</p>
+      <input type="button" value="Feed Me" class="feed-me-button" id="feed" />
+      <span class="feed-count"><span id="counter">250</span> Feeds</span> </section>
+    <section class="fish-popup2" id="fish-pop2"> <img src="Assets/close-button.png" alt="close" class="close-button2-fish" />
+      <textarea>Your Solution </textarea>
+      <input type="button" value="Submit" class="feed-me-button submitalign" id="submit-pop2" />
+    </section>
+  </section>
+  <section class="refresh-pop">
+    <p>Refresh the Lake</p>
+  </section>
+  <!--Delete overlat-->
+  <section class="overlay-delete" id="delete-overlay">
+    <section class="delete-pop" id="delete-comment"> <img src="Assets/close-button.png" alt="close" class="close-button-fish" id="close-delete"/>
+      <ul>
+        <li class="fish-category">
+          <label class="Name">Category Name :</label>
+          <span class="Fish-detail">Academy</span> </li>
+        <li class="fish-category fish-sec-row">
+          <label class="Name">Date of Birth  -</label>
+          <span class="Fish-detail">12/12/2014</span> </li>
+      </ul>
+      <textarea class="delete-textbox">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </textarea>
+      <span class="delete-count"><span id="counterdecrease">250</span> Feeds</span>
+      <input type="button" value="Delete" class="delete-button"  id="deletebutton" />
+    </section>
+    <section class="delete-pop" id="confirm"> <img src="Assets/close-button.png" alt="close" class="close-button-fish" id="close2-delete"/>
+      <p class="confirm-delete"> Do you want to  delete the fish ? </p>
+      <input type="button" value="Yes" class="delete-button yesbutton" id="yesbutton-delete" />
+      <input type="button" value="No" class="delete-button nobutton" id="nobutton-delete" />
+    </section>
+  </section>
+</div>
+</body>
+<script src="Script/script.js"></script>
+<script src="Script/jQueryRotate.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Angry Fish Document</title>
+</head>
+<link rel="stylesheet" href="CSS/reset.css" type="text/css" />
+<link rel="stylesheet" href="CSS/style.css" type="text/css" />
+<script src="Script/jquery-1.8.3.min.js"></script>
+
+<body>
+<div class="wrapper helppage1">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+      <a href="javascript:void(0)"  class="lefthelp-arrow hiddenarrow" ></a>
+		<a href="javascript:void(0)"  class="lefthelp-arrow right-arrow-help" id="rightarrow-screen2" ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+<div class="wrapper helppage2">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+       	<a href="javascript:void(0)" class="lefthelp-arrow" id="left-arrow2" ></a>
+		<a href="javascript:void(0)" class="lefthelp-arrow right-arrow-help" id="rightarrow-screen3" ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+<div class="wrapper helppage3">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+       	<a href="javascript:void(0)" class="lefthelp-arrow" id="left-arrow3" ></a>
+		<a href="javascript:void(0)" class="lefthelp-arrow right-arrow-help" id="rightarrow-screen4" ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+<div class="wrapper helppage4">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+       	<a href="javascript:void(0)" class="lefthelp-arrow" id="left-arrow4" ></a>
+		<a href="javascript:void(0)" class="lefthelp-arrow right-arrow-help" id="rightarrow-screen5" ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+<div class="wrapper helppage5">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+       	<a href="javascript:void(0)" class="lefthelp-arrow" id="left-arrow5" ></a>
+		<a href="javascript:void(0)" class="lefthelp-arrow right-arrow-help" id="rightarrow-screen6" ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+<div class="wrapper helppage6">
+		<a href="Home-Page-AngryFish.html" class="close-help" ></a>
+       	<a href="javascript:void(0)" class="lefthelp-arrow" id="left-arrow6" ></a>
+		<a href="javascript:void(0)" class="lefthelp-arrow right-arrow-help hiddenarrow"  ></a>
+        <a href="Home-Page-AngryFish.html" class="helplink-home"></a>
+</div>
+</body>
+<script>
+$('#left-arrow2,#left-arrow3,#left-arrow4,#left-arrow5,#left-arrow6').on('click',function(event){
+	event.preventDefault();
+	$(this).parent().hide();
+	$(this).parent().prev().show();
+});
+$('#rightarrow-screen2,#rightarrow-screen3,#rightarrow-screen4,#rightarrow-screen5,#rightarrow-screen6').on('click',function(event){
+	event.preventDefault();
+	$(this).parent().hide();
+	$(this).parent().next().show();
+});
+
+
+</script>
+<!--<script src="Script/script.js"></script>-->
+
+</html>

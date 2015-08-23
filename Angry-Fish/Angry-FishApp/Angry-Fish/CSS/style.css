@@ -1,0 +1,1082 @@
+.wrapper {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/bg%202.jpg) no-repeat;
+}
+input[type="button"]:active {
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.container-Home {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/bg-2top-layer.png) no-repeat;
+}
+.waves-header {
+	width: 962px;
+	height: 90px;
+	float: left;
+	background: url(../Assets/Waveanimation2.gif) no-repeat;
+}
+.waves-header .left-aside {
+	width: 620px;
+	height: 39px;
+	float: left;
+}
+.hello-user {
+	float: left;
+	width: auto;
+	height: auto;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 10px 0px 0px 16px;
+	color: #0262b8;
+}
+.right-aside {
+	width: 335px;
+	height: 90px;
+	float: right;
+}
+.main-content {
+	width: 959px;
+	height: 450px;
+	float: left;
+}
+.oyster {
+	width: 86px;
+	height: 68px;
+	position: relative;
+	background: url(../Assets/Eggmovement.gif) no-repeat;
+	top: 451px;
+	left: 240px;
+	cursor: pointer;
+}
+.oyster-click {
+	background: url(../Assets/Eggbreakinganimation.gif) no-repeat !important;
+}
+.small-fish {
+	width: 66px;
+	height: 66px;
+	float: left;
+	position: relative;
+	background: url(../Assets/FIsh1.gif) no-repeat;
+	top: 345px;
+	left: 420px;
+	cursor: pointer;
+}
+.medium-fish {
+	width: 76px;
+	height: 76px;
+	float: left;
+	position: relative;
+	background: url(../Assets/FIsh2.gif) no-repeat;
+	top: 258px;
+	left: 132px;
+	cursor: pointer;
+}
+.large-fish {
+	width: 115px;
+	height: 115px;
+	float: left;
+	position: relative;
+	background: url(../Assets/fish-glow3.gif) no-repeat;
+	top: 80px;
+	left: 553px;
+	cursor: pointer;
+}
+/*.fish1-stop
+{
+	background:url(../Assets/1.png) no-repeat;	
+}
+.fish2-stop
+{
+	background:url(../Assets/2.png) no-repeat;	
+}
+.fish3-stop
+{
+	background:url(../Assets/3.png) no-repeat;	
+}*/
+footer {
+	width: 100%;
+	height: 70px;
+	float: left;
+}
+.category {
+	width: 84px;
+	height: 30px;
+	float: right;
+	background: #0568bd;
+	cursor: pointer;
+	outline: none;
+	margin: 5px 5px 0px 0px;
+	color: #FFF;
+	border: none;
+	border-radius: 10px;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	position: relative;
+}
+.Search {
+	width: 189px;
+	height: 30px;
+	float: right;
+	background: url(../Assets/serach-box.png) no-repeat;
+	border: none;
+	outline: none;
+	margin: 5px 5px 0px 0px;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0262b8;
+	padding-left: 10px;
+}
+.dolphins {
+	width: 79px;
+	height: 38px;
+/*	background: url(../Assets/My-fishes-icon.png) no-repeat;
+	*/
+	background: url(../Assets/Sprite_image_myfishes_leaderboard_help.png) no-repeat -21px -10px;
+	border: none;
+	outline: none;
+	margin: 15px 0px 0px 60px;
+	float: left;
+	cursor: pointer;
+}
+.myhome
+{
+	width: 113px;
+	height: 60px;
+	background: url(../Assets/Sprite_image_home_leaderboard_help.png) no-repeat 0px 0px;
+	border: none;
+	outline: none;
+	margin: 1px 0px 0px 36px;
+	float: left;
+	cursor: pointer;	
+}
+
+.icons {
+	width: 21px;
+	height: 44px;
+	/*background: url(../Assets/leaderboard-icon.png) no-repeat;	*/
+	background: url(../Assets/Sprite_image_myfishes_leaderboard_help.png) no-repeat -143px -5px;
+	border: none;
+	outline: none;
+	margin: 15px 0px 0px 41px;
+	float: left;
+	cursor: pointer;
+}
+.myhome-icon
+{
+	margin-left:35px;	
+}
+
+.life-jacket {
+	width: 42px;
+	height: 42px;
+	/*background: url(../Assets/Help-icon.png) no-repeat;*/
+	background: url(../Assets/Sprite_image_myfishes_leaderboard_help.png) no-repeat -220px -7px;
+	border: none;
+	outline: none;
+	float: left;
+	cursor: pointer;
+	margin: 15px 0px 0px 52px;
+}
+
+.academyTEXT {
+	width: auto;
+	height: auto;
+	float: left;
+ 	left: 395px;
+    position: fixed;
+    top: 109px;
+	color: #034987;
+	font: 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.right-arrow, .left-arrow {
+	float: right;
+	position: relative;
+	right: 10px;
+	top: 119px;
+	cursor: pointer;
+}
+.left-arrow-new
+{
+	float: right;
+	position: relative;
+	right:-13px;
+	top: 119px;
+	cursor: pointer;
+visibility:hidden;	
+}
+.pop-up-selectCategory {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/overlay.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.select-category-container {
+	width: 346px;
+	height: 470px;
+	float: left;
+	margin: 120px 0px 0px 286px;
+}
+.close-button {
+	float: right;
+	cursor: pointer;
+	margin: 42px 42px 0px 0px;
+}
+.details-contaniner, .select-circles {
+	width: 239px;
+	height: 341px;
+	float: left;
+	background: url(../Assets/popup-bg2.png) no-repeat;
+	margin: 67px 0 0 42px;
+}
+.select-circles {
+	position: relative;
+	top: 123px;
+	left: -345px;
+	visibility: hidden;
+}
+.select-category {
+	width: 110px;
+	height: 20px;
+	float: left;
+	margin: 10px 0px 0px 80px;
+	color: #FFF;
+	font: bold 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.arrow-default {
+	width: 24px;
+	height: 24px;
+	float: left;
+	background: url(../Assets/dropdown-select-category.png) no-repeat;
+	cursor: pointer;
+	margin: 7px 0px 0px 7px;
+}
+.aligntopcity {
+	margin-top: 4px !important;
+}
+.problem-description {
+	width: 194px;
+	height: 163px;
+	float: left;
+	background: #addefe;
+	border-radius: 10px;
+	border: none;
+	resize: none;
+	margin: 8px 0px 0px 30px;
+	text-align: left;
+	color: #525252;
+	padding-left: 5px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+.keywordstextbox {
+	width: 194px;
+	height: 31px;
+	float: left;
+	margin: 10px 0px 0px 30px;
+	background: url(../Assets/keyword-box.png) no-repeat;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	border: none;
+	outline: line;
+	color: #525252;
+	text-align: left;
+	padding-left: 5px;
+}
+.infosymbol {
+	left: -23px;
+	position: relative;
+	top: 225px;
+	cursor: pointer;
+}
+@-moz-document url-prefix() {
+ .infosymbol {
+ top: 220px;
+}
+}
+.post-button {
+	width: 64px;
+	height: 28px;
+	float: left;
+	background: url(../Assets/Post-button.png) no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: -5px 0px 0px 30px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #dae4ee;
+}
+.circle-button {
+	width: 124px;
+	height: 28px;
+	float: left;
+	background: url(../Assets/SHare-with-circle-button.png) no-repeat;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: -5px 0px 0px 30px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #dae4ee;
+}
+.circle-button {
+	z-index: 1000;
+}
+.post-button {
+	margin-left: 10px;
+}
+.search-icon {
+	cursor: pointer;
+	left: 484px;
+	position: relative;
+	top: 12px;
+}
+.new-fish {
+	float: left;
+	height: 64px;
+	left: -286px;
+	position: relative;
+	top: 319px;
+	width: 64px;
+	z-index: 110;
+	background: url(../Assets/fish-aferr-breaking-egg.gif) no-repeat;
+}
+.fishhatch {
+	width: 66px;
+	height: 66px;
+	float: left;
+	background: url(../Assets/R1gif.gif) no-repeat;
+	position: absolute;
+	left: 282px;
+	top: 507px;
+	cursor: pointer;
+}
+.hover-textInfo {
+	width: 216px;
+	height: 31px;
+	float: left;
+	background: url(../Assets/on-hover-of-info-button-inside-keyword-box.png) no-repeat;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.hover-textInfo p {
+	float: left;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0262b8;
+	width: auto;
+	height: auto;
+	margin: 4px 0px 0px 5px;
+}
+.infohide-symbol {
+	width: 5px;
+	height: 5px;
+	position: relative;
+	top: 214px;
+	left: 206px;
+	cursor: pointer;
+}
+.glowingfish {
+	width: 115px;
+	height: 115px;
+	float: left;
+	position: absolute;
+	top: 480px;
+	left: 153px;
+	cursor: pointer;
+	background: url(../Assets/fish-glow3.gif) no-repeat;
+}
+.add-uparrow {
+	background: url(../Assets/top-arrow.png) no-repeat !important;
+}
+.category-name-row {
+	float: left;
+	width: 210px;
+	height: 22px;
+	margin: -1px 0px 0px 21px;
+	cursor: pointer;
+}
+.category-name-row:hover {
+	background: url(../Assets/select-category-box.png) no-repeat;
+}
+.category-name-row span {
+	float: left;
+	font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: auto;
+	height: auto;
+	margin: 3px 0px 0px 67px;
+	color: #FFF;
+}
+.pop-up-categorybutton {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/overlay.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.categorybutton-select {
+	width: 216px;
+	height: 252px;
+	float: left;
+	position: relative;
+	top: 38px;
+	left: 260px;
+	background: url(../Assets/drop-down-box.png) no-repeat;
+}
+.category-row {
+	width: 214px;
+	height: 20px;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	cursor: pointer;
+}
+.category-row span {
+	float: left;
+	font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	width: auto;
+	height: auto;
+	margin: 3px 0px 0px 67px;
+	color: #FFF;
+}
+.category-row:hover {
+	background: url(../Assets/hover.png) no-repeat;
+}
+.zindexhigh {
+	z-index: 110;
+}
+.require-fields {
+	width: 138px;
+	float: left;
+	height: 15px;
+	font: 12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 5px 0px 0px 62px;
+	visibility: hidden;
+}
+.select-circle-overlay {
+	width: 341px;
+	height: 249px;
+	float: left;
+	position: relative;
+	top: -399px;
+	left: 574px;
+	display: none;
+	background: url(../Assets/circle-popup-bg.png) no-repeat;
+}
+.close-button-circle, .close-button-fish {
+	float: right;
+	cursor: pointer;
+	margin: -27px -18px 0px 0px;
+}
+.select-circle-text {
+	float: left;
+	margin: 15px 0px 0px 87px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #dae4ee;
+	width: auto;
+	height: auto;
+}
+.circles-icon {
+	width: 62px;
+	height: 62px;
+	float: left;
+	background: url(../Assets/circle.png) no-repeat;
+	cursor: pointer;
+	margin: 16px 0px 0px 45px;
+}
+.alignmentleft {
+	margin-left: 20px;
+	clear: none;
+}
+.Text-circle {
+	float: left;
+	margin: 21px 0px 0px 15px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #dae4ee;
+	width: 50px;
+	word-wrap: break-word;
+	height: auto;
+}
+.depttext {
+	width: 70px;
+	margin-left: 3px;
+}
+.ok-button {
+	width: 94px;
+	height: 28px;
+	float: left;
+	background: url(../Assets/OK-button.png) no-repeat;
+	border: none;
+	outline: none;
+	color: #dae4ee;
+	padding-left: 2px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 7px 0px 0px 35px;
+	cursor: pointer;
+}
+.ok-style {
+	margin-left: 10px;
+}
+.please-select {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 8px 0px 0px 46px;
+	display: none;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #c30302;
+}
+.selected-circle {
+	background: url(../Assets/selected-circle.png) no-repeat;
+}
+.selected-circle-grid-1 {
+	width: 109px;
+	height: 65px;
+	float: left;
+	background: url(../Assets/Hovertip-shareCircles.png) no-repeat;
+	position: absolute;
+	top: 482px;
+	left: 373px;
+	display: none;
+}
+.selected-circle-row {
+	width: 100%;
+	height: 30px;
+	float: left;
+	cursor: pointer;
+}
+.selected-circle-row span {
+	float: left;
+	margin: 15px 0px 0px 25px;
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0262b8;
+	width: 50px;
+	word-wrap: break-word;
+	height: auto;
+}
+.city-name {
+	margin-left: 29px !important;
+}
+.grade-text {
+	margin: 25px 0px 0px 9px;
+}
+.alignleftcity {
+	margin-left: 13px;
+}
+.alignfacility {
+	margin-left: 11px;
+}
+.egg-count-hover {
+	width: 227px;
+	height: 59px;
+	float: left;
+	background: url(../Assets/click-me-to-post-a-new-problem.png) no-repeat;
+	left: 175px;
+	position: fixed;
+	top:480px;
+	display: none;
+}
+.Click-me-Text, .remaining-count, .View-more-text, .fishes-text {
+	font-size: 11px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	float: left;
+	width: auto;
+	height: auto;
+	color: #0361b8;
+	margin: 14px 0px 0px 32px
+}
+.fishes-text {
+	margin-top: 15px !important;
+}
+.Click-me-Text {
+	font-size: 12px;
+}
+.fishes-text {
+	margin: 9px 0px 0px 20px;
+}
+.remaining-count {
+	margin-top: 3px;
+	margin-left: 55px;
+}
+.View-more-text {
+	margin: 12px 0px 0px 15px;
+}
+.View-more,.View-Back {
+	width: 90px;
+	height: 37px;
+	float: left;
+	left: 832px;
+	position: fixed;
+	top: 275px;
+	display: none;
+	background: url(../Assets/view-more.png) no-repeat;
+}
+
+.View-Back .View-more-text
+{
+	margin-left:30px;
+}
+.My-fishes-button {
+	width: 87px;
+	height: 41px;
+	float: right;
+	left: 691px;
+	position: absolute;
+	top: 65px;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	display: none;
+	background: url(../Assets/my-fishes-latest.png) no-repeat;
+}
+.leaderboard {
+	width: 107px;
+	height: 41px;
+	background: url(../Assets/leadeboard.png) no-repeat;
+	left: 767px;
+}
+.Help-button {
+	width: 67px;
+	height: 41px;
+	background: url(../Assets/Help.png) no-repeat;
+	left: 868px;
+}
+.fish-hover-box {
+	width: 187px;
+	height: 45px;
+	float: left;
+	position: relative;
+	top: 69px;
+	left: -43px;
+	background: url(../Assets/Click-me-to-view-my-problem.png) no-repeat;
+	display: none;
+	border: none;
+	outline: none;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0361b8;
+	cursor: pointer;
+}
+.refresh-icon {
+	float: left;
+	position: relative;
+	top: 14px;
+	left: 459px;
+	cursor: pointer;
+}
+.back-text {
+	margin-left: 30px;
+}
+/*Fish Pop-Up*/
+.pop-up-fish {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/overlay.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.fish-popup {
+	width: 224px;
+	height: 221px;
+	position: relative;
+	background: url(../Assets/pop-up1.png) no-repeat;
+	top: 170px;
+	left: 373px;
+}
+.fish-category {
+	float: left;
+	margin: 20px 0px 0px 30px;
+}
+.Name, .Fish-detail {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 0px 0px 0px 0px;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.Fish-detail {
+	margin-left: 10px;
+	font-weight: bold;
+}
+.fish-sec-row {
+	margin: 10px 0px 0px 42px;
+}
+.fish-sec-row .Fish-detail {
+	font-weight: normal;
+}
+.fish-popup textarea {
+	width: 194px;
+	height: 83px;
+	float: left;
+	background: #acdefd;
+	border-radius: 7px;
+	resize: none;
+	border: none;
+	outline: none;
+	margin: 6px 0px 0px 13px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	color: #000;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.comment-text {
+	width: auto;
+	height: auto;
+	float: left;
+	color: #FFF;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+	margin: 6px 0px 0px 88px;
+	cursor: pointer;
+}
+.feed-me-button, .delete-button {
+	width: 94px;
+	height: 28px;
+	float: left;
+	background: url(../Assets/feed-me-button.png) no-repeat;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	color: #FFF;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 8px 0px 0px 30px;
+}
+.feed-count, .delete-count {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 15px 0px 0px 10px;
+	color: #FFF;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.fish-popup2 {
+	width: 261px;
+	height: 164px;
+	position: absolute;
+	background: url(../Assets/popup-2-share-to-POC.png) no-repeat;
+	top: 174px;
+	left: 131px;
+	display: none;
+}
+.fish-popup2 textarea {
+	width: 194px;
+	height: 82px;
+	float: left;
+	background: #acdefd;
+	border-radius: 7px;
+	resize: none;
+	border: none;
+	outline: none;
+	margin: 15px 0px 0px 13px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	color: #000;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.submitalign {
+	margin-left: 65px;
+	margin-top: 6px;
+}
+.close-button2-fish {
+	float: right;
+	cursor: pointer;
+	margin: -29px 18px 0px 0px;
+}
+.feed-added {
+	margin: 34px 0px 0px -46px;
+}
+.refresh-pop {
+	width: 127px;
+	height: 43px;
+	float: left;
+	background: url(../Assets/refresh-the-lake.png) no-repeat;
+	position: absolute;
+	top: 509px;
+	left: 415px;
+	display: none;
+}
+.refresh-pop p {
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0361b8;
+	cursor: pointer;
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 8px 0px 0px 21px;
+}
+/*overlay for delete button*/
+.overlay-delete {
+	width: 962px;
+	height: 610px;
+	float: left;
+	background: url(../Assets/overlay.png) no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.delete-pop {
+	width: 224px;
+	height: 221px;
+	float: left;
+	background: url(../Assets/delete-screen-bg.png) no-repeat;
+	position: relative;
+	top: 181px;
+	left: 361px;
+}
+.delete-textbox {
+	width: 194px;
+	height: 82px;
+	float: left;
+	background: #acdefd;
+	border-radius: 7px;
+	resize: none;
+	border: none;
+	outline: none;
+	margin: 10px 0px 0px 13px;
+	-ms-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-o-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	color: #000;
+	font: 11px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.delete-count {
+	margin: 5px 0px 0px 84px;
+}
+.delete-button {
+	margin: 21px 0px 0px -70px;
+}
+.confirm-delete {
+	width: 103px;
+	height: auto;
+	float: left;
+	margin: 48px 0px 0px 65px;
+	color: #fff;
+	font: 13px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.yesbutton {
+	margin: 15px 0px 0px 69px;
+}
+.nobutton {
+	margin: 10px 0px 0px 69px;
+}
+
+#confirm
+{
+	display:none;	
+}
+
+/*My fishes page*/
+.hiddenoyster,.hiddenarrow
+{
+	visibility:hidden;
+	cursor:auto !important;	
+}
+.align-right
+{
+	
+	left: 573px;
+}
+.home-align
+{
+left: 674px;
+		
+}
+
+/*Help Page*/
+.helppage1
+{
+	
+	background:url(../Assets/screen2.jpg) no-repeat;	
+	
+}
+.helppage2
+{
+background:url(../Assets/screen3.jpg) no-repeat;	
+display:none;
+}
+.helppage3
+{
+background:url(../Assets/screen4.jpg) no-repeat;	
+display:none;
+}
+.helppage4
+{
+background:url(../Assets/screen5.jpg) no-repeat;	
+display:none;	
+}
+.helppage5
+{
+background:url(../Assets/screen6.jpg) no-repeat;	
+display:none;		
+}
+.helppage6
+{
+background:url(../Assets/screen7.jpg) no-repeat;	
+display:none;		
+}
+.close-help
+{
+	width:44px;
+	height:44px;
+	float:right;
+	background:url(../Assets/close_button.png) no-repeat;
+	position:relative;
+	right:33px;
+	top:10px;
+	border:none;
+	outline:none;
+	cursor:pointer;
+		
+}
+.lefthelp-arrow
+{
+	width:45px;
+	height:41px;
+	float:left;
+	position:relative;
+	top:296px;
+	left:100px;
+		border:none;
+	outline:none;
+	cursor:pointer;
+	background:url(../Assets/left_arrow.png) no-repeat;	
+}
+.right-arrow-help
+{
+	background:url(../Assets/right_arrow.png) no-repeat;
+	left: 773px;	
+}
+.helplink-home
+{
+	width:174px;
+	height:60px;
+	float:right;
+	position:relative;
+	top: 529px;
+	left: -7px;
+	border:none;
+	outline:none;
+	background:url(../Assets/Go_to_Lake_button.png) no-repeat;	
+}
+
+/*Leader board page*/
+.leaderboard-page
+{
+background:url(../Assets/Leader-board-bg.png) no-repeat;	
+}
+.leaderboardtable-details
+{
+	width:592px;
+	height:311px;
+	float:left;
+	position:relative;
+	left: 185px;
+top: 213px;
+	
+}
+.leader-boardTable
+{
+	width:100%;
+	height:240px;
+	float:left;	
+}
+.leader-boardTable tbody tr td
+{
+	height:48px;
+	font: 15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #fff;	
+	text-align:center;
+	margin:0px 0px 0px 0px !important;
+	vertical-align:middle;
+}
+.serialNo
+{
+	width:auto;
+	height:auto;
+	float:left;
+	margin: 0px 0px 0px 25px;	
+}
+.name-detail,.Name-detail2
+{
+	width: 30%;
+height: auto;
+float: left;
+margin: 0px 0px 0px 55px;
+	
+}
+.Name-detail2
+{
+	margin: 0px 0px 0px 53px;
+}
+.pagination {
+	width: 200px;
+	height: 25px;
+	float: left;
+	position: relative;
+	top: 27px;
+left: 210px;
+}
+.paginationnumbers li {
+	display: inline;
+	width:15px;
+	height: auto;
+	float: left;
+}
+.paginationnumbers li a {
+	color: #FFF;
+	font-size: 12px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	float: left;
+	width: auto;
+	height: 20px;
+	text-decoration: none;
+padding: 3px 0px 0px 9px;
+}
+.Prev-anchor,.Next-anchor
+{
+width:18px !important;
+height:16px !important;
+float:left;
+background:url(../Assets/left-nonclickable.png) no-repeat;
+	padding:0px !important;
+
+}
+.Next-anchor
+{
+	margin-left: 13px;
+	cursor:pointer;	
+	background:url(../Assets/right-active.png) no-repeat;	
+}
+#currentPage
+{
+font-size: 16px;
+padding: 0px 0px 0px 11px;
+}
