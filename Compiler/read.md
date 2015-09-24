@@ -4,3 +4,4 @@
 - It accepts any pascal input file to generate tokens
 - Written by Amit.K (NYU) 
 -ak4742@nyu.edu
+# NOTE : ignore .DS_Store files
